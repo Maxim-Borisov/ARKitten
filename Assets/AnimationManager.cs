@@ -10,7 +10,7 @@ public class AnimationManager : MonoBehaviour {
         _animation = GetComponent<Animation>();
 	}
 
-    public void ResetAntimation()
+    private void ResetAnimation()
     {
         _inAction = false;
         _animation.Play("Idle");
