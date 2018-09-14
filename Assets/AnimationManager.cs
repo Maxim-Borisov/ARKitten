@@ -37,6 +37,18 @@ public class AnimationManager : MonoBehaviour {
 
         _inAction = true;
         _animation.Play("Ithcing");
-        Invoke("ResetAnimation", 1.30f);
+        Invoke("ResetAnimation", 1.25f);
+    }
+
+    public void Sit()
+    {
+        if (_inAction)
+        {
+            return;
+        }
+
+        _inAction = true;
+        _animation.Play("IdleSit");
+        Invoke("ResetAnimation", 3.25f);
     }
 }
