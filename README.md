@@ -6,12 +6,13 @@ In order to build the application:
 
 * Clone the repo;
 * Open _ARKitten_ project in Unity (2017.2 or higher);
-* Go to _Edit -> Preferences -> External Tools_ and make sure that paths to Android SDK and JDK are correct;
-* Go to _File -> Build Settings_;
+* Go to _Edit_ -> _Preferences_ -> _External Tools_ and make sure that paths to Android SDK and JDK are correct;
+* Go to _File_ -> _Build Settings_;
 * Select _Android_ and click the _Build_ button;
 * Save the .apk file in any place on your PC.
 
 You can use this image as the target:
+
 ![Kitten](https://user-images.githubusercontent.com/7038702/45623258-66a55100-ba8f-11e8-9426-2a846dbaea95.jpg)
 
-AR Kitten application use free "Cute Kitten" asset created by LESHIY3D
+AR Kitten application use free _Cute Kitten_ asset created by LESHIY3D
